@@ -87,7 +87,7 @@ button:hover
     width: 100%;
     top: -1px;
     left: 0; right: 0;
-    background: Alice Blue;
+    background:#e8f4f8;
     box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     z-index: 999;
     transition: background .1s ease;
