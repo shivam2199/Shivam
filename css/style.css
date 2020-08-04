@@ -1,0 +1,256 @@
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+@import url("//use.fontawesome.com/releases/v5.6.1/css/all.css'");
+
+/*start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 1rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*end Navigation*/
+
+/*Banner Area*/
+
+.site-main .site-banner {
+    background: url('../img/back.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/*End Banner Area*/
+
+/* Start About Area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+
+/*End About Area */
+
+/*Services Area*/
+
+.site-main .services-area{
+    padding: 4rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 25px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Services Area */
+
+/*Skills */
+
+.site-main .skills{
+    padding: 2rem 10rem;
+    margin-bottom: 4rem;
+    font-weight: 800;
+    background: url('../img/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+}
+.site-main .skills .first-row .col-sm-4{
+    display: flex;
+    justify-content: center;
+
+}
+.site-main .skills .first-row .col-sm-4 .single-skill{
+    
+    text-align: center;
+    padding: 1.2rem 0;
+    margin: .9rem 0;
+}
+
+.site-main .skills .first-row .col-sm-4 .single-skill:hover{
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    transform: scale(1.1);
+    
+}
+
+.site-main .skills .title-text{
+    padding: 50%;
+    font-size: 5rem;
+     
+    
+
+}
+
+/*End skills */
+
+/* Projects Area */
+
+
+.site-main .projects .project-title{
+    padding:  0 14rem ;
+    
+}
+.site-main .projects .project-title h1{
+    font-size: 25px;
+
+}
+.site-main .projects .project{
+    background: rgba(248,252,248,0.973);
+    padding: 2rem 0 ;
+    width: 22rem;
+    margin: 2rem 1rem;
+    transition: box-shadow 0.7s;
+}
+.site-main .projects .project-image>img{
+    width: 12rem;
+}
+
+.site-main .projects .project:hover{
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+
+ /* End Project Area */
+
+
+
+.Contact{
+    padding: 7rem 2rem;
+}
+
+
+.Contact h2{
+    font: normal bold 50px/72px 'Roboto',cursive;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+  .contacts-div{
+    padding-top: 3%;
+  }
+  
+  .contact-item{
+    text-align:center;
+  }
+  
+  .contact-img{
+    color: #303841;
+    margin-bottom: 2%;
+  }
+  
+  .fab:hover{
+    color: #3498db;
+  }
+
+/* End subscribe me */ 
+.myclass:before {
+    content: '\f017';
+    /* font-family: 'Font Awesome 5 Brands'; If using Brand */
+    font-family: 'Font Awesome 5 Free';
+    /* font-weight: 400;  If using Brands or Regular */
+    font-weight: 900;
+}
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
