@@ -104,10 +104,14 @@ button:hover
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 1rem 0 5rem;
+    font-family: 'Roboto', cursive;
+    text-transform: uppercase;
+    font-weight: 800;
 }
 
 .header_area .main-menu .navbar{
     padding: 1rem 20rem ;
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
 }
 
 
